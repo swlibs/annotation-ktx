@@ -5,7 +5,6 @@ import com.swlibs.annotation.preprocessor.AnnotationPreprocessor
 /**
  * Component for DI.
  *
- * @author brzsmg
  * @version 1 (2024-01-21)
  */
 @Target(

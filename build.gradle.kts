@@ -1,19 +1,21 @@
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+
 plugins {
     id("java-library")
     alias(libs.plugins.jetbrains.kotlin.jvm)
 }
 
-object PackageInfo {
-    const val PACKAGE_NAME = "com.swlibs.annotation-ktx"
-    const val VERSION = "1.0"
-	const val DESCRIPTION = "Annotation Library"
-	
-	val JVM = JavaVersion.VERSION_17
-}
-
-project.version = PackageInfo.VERSION
+val version = "1.0.2"
+project.version = version
 
 java {
-    sourceCompatibility = PackageInfo.JVM
-    targetCompatibility = PackageInfo.JVM
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+kotlin {
+    compilerOptions {
+        jvmTarget.set(JvmTarget.JVM_17)
+    }
+    jvmToolchain(17)
 }

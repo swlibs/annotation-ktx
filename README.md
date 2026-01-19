@@ -1,18 +1,27 @@
 # Package
 
-Annotation package `com.swlibs.annotation`.
+Annotation package com.swlibs.annotation.
 
+Contains annotations for:
+ * Development
+ * DI
+ * Modularization
+ * Preprocessor
+ * REST
+ * Scheduling
+ * UI
 
-## DI
+## Versions
 
-Inversion of Control. Dependency injection.
+Version 1.0.2 (2026-01-14).  
+Add annotations for:  
+ * Development
+ * Modularization
+ * REST
+ * UI
 
-* `Component`
-* `Inject`
-
-
-## Scheduling
-
-Executing functions on a timer.
-
-* `Scheduled` - Analogous to `Scheduled` from the Spring Framework.
+Version 1.0.1 (2026-01-14).  
+Add annotations for:  
+ * DI
+ * Preprocessor
+ * Scheduling
