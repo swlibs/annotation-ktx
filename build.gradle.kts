@@ -5,7 +5,7 @@ plugins {
     alias(libs.plugins.jetbrains.kotlin.jvm)
 }
 
-val version = "1.0.2"
+val version = "1.1"
 project.version = version
 
 java {

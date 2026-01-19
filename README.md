@@ -13,14 +13,14 @@ Contains annotations for:
 
 ## Versions
 
-Version 1.0.2 (2026-01-14).  
+Version 1.1 (2026-01-14).  
 Add annotations for:  
  * Development
  * Modularization
  * REST
  * UI
 
-Version 1.0.1 (2026-01-14).  
+Version 1.0 (2026-05-27).  
 Add annotations for:  
  * DI
  * Preprocessor
